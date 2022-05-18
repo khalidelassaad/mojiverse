@@ -29,3 +29,8 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Ignore data cluster folder
+/db/data
+/db/data/*
+/db/logfile
