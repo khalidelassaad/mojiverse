@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby.exe
+#!/usr/local/opt/ruby/bin/ruby
 require "fileutils"
 
 # path to your application root.
