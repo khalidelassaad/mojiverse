@@ -1,11 +1,13 @@
 <h1>Mojimap#index</h1>
 <p>Find me in app/views/mojimap/index.html.erb</p>
 
-<ul>
-  <% @mojimap.each do |row| %>
-    <% row.each do |col| %>
-        <%= @mojichar %>
+<%= turbo_frame_tag @moji_turbo_frame_id do %>
+    <ul>
+    <% @mojimap.each do |row| %>
+        <% row.each do |col| %>
+            <%= @mojichar %>
+        <% end %>
+        <br>
     <% end %>
-    <br>
-  <% end %>
-</ul>
+    </ul>
+<% end %>
