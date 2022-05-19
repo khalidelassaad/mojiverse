@@ -1,0 +1,2 @@
+module MojimapHelper
+end
